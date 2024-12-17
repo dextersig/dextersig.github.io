@@ -2,6 +2,21 @@ body {
 	background-color: #33001a;
 }
 
-h1 {
-	color: #e3e9f0;
+h1{
+	color: #ccffcc;
+	text-align: center;
+	font-size: 40px;
+}
+
+p {
+	color: #ccffcc;
+	font-size: 24px;
+}
+
+a {
+	color: #88bb88;
+}
+
+a:hover {
+	color: #ccffcc;
 }
