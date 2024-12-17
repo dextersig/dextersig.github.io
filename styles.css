@@ -1,4 +1,7 @@
-:root {
-	--background-color: #33001a;
-	--heading-color: #e3e9f0;
+body {
+	background-color: #33001a;
+}
+
+h1 {
+	color: #e3e9f0;
 }
