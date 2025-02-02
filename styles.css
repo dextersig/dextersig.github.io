@@ -1,0 +1,80 @@
+html{
+    --background-colour: #33001a;
+    --link-color: #ccffcc;
+    --link-hover-color: #77aa77;
+    --navbar-size: 5rem;
+    --text-color: #c9d1d9;
+
+    font-size: 1em;
+
+}
+
+
+body {
+    background-color: var(--background-colour);
+    border: 0;
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+}
+
+/* Link Styles*/
+a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--link-hover-color);
+    text-decoration: underline;
+}
+
+/* Navigation Bar Styles*/
+nav{
+    height: auto;
+    padding-bottom: 0.5%;  
+    text-align: center;
+    width: 100%;
+}
+
+nav ul {
+    align-items: center;
+    background-color: #000000;
+    display: flex;
+    height: var(--navbar-size);
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    border-radius: 0 0 400px 400px;  
+}
+
+nav ul li {
+    display: inline;
+    font-size: 1.5rem;
+    padding: 1em;
+}
+
+/* Header Styles */
+header{
+    font-size: 1.8rem;
+    margin-top: var(--navbar-size);
+    text-align: center;
+}
+
+/* Main Content Styles */
+main{
+    font-size: 1.5rem;
+    padding: 0 1rem 0 1rem;
+}
+
+/* Footer Styles */
+footer{
+    font-size: 1.2rem;
+    padding-right: 1rem;
+    text-align: right;
+}
