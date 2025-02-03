@@ -4,9 +4,6 @@ html{
     --link-hover-color: #77aa77;
     --navbar-size: 5rem;
     --text-color: #c9d1d9;
-
-    font-size: 1em;
-
 }
 
 
@@ -14,6 +11,7 @@ body {
     background-color: var(--background-colour);
     border: 0;
     color: var(--text-color);
+    font-family: "Quicksand", "Arial", "sans-serif";
     margin: 0;
     padding: 0;
 }
@@ -55,26 +53,26 @@ nav ul {
 
 nav ul li {
     display: inline;
-    font-size: 1.5rem;
+    font-size: 1.3em;
     padding: 1em;
 }
 
 /* Header Styles */
 header{
-    font-size: 1.8rem;
+    font-size: 1.6em;
     margin-top: var(--navbar-size);
     text-align: center;
 }
 
 /* Main Content Styles */
 main{
-    font-size: 1.5rem;
-    padding: 0 1rem 0 1rem;
+    font-size: 1.3em;
+    padding: 0 9rem 0 9rem;
 }
 
 /* Footer Styles */
 footer{
-    font-size: 1.2rem;
+    font-size: 1.0em;
     padding-right: 1rem;
     text-align: right;
 }
