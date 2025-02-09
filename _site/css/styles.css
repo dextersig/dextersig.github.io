@@ -1,6 +1,4 @@
 :root{
-    --link-color: #00F9FA;
-    --link-color-hover: #00C7C8;
     --navbar-shift-time: 0.24s;
     --primary-color-dark: #1a000d; 
     --primary-color-light: #d6ccd1;
@@ -26,13 +24,11 @@ body {
 }
 
 a {
-    color: var(--link-color);
-    text-decoration: none;
+    color: var(--secondary-color-light);
 }
 
 a:hover {
-    color: var(--link-color-hover);
-    text-decoration: underline;
+    color: var(--secondary-color-main);
 }
 
 a:focus {
@@ -85,6 +81,7 @@ header nav ul li:first-child{
 header nav ul li a{
     border-radius: 15%;
     padding: 0.5rem;
+    text-decoration:none;
 }
 
 /* Mouse moves off a Navbar Link*/
@@ -99,9 +96,7 @@ header nav ul li a:hover,
 header nav ul li a:focus {
     background-color: var(--primary-color-light);
     color: var(--primary-color-dark);
-    text-decoration: none;
     transition: background-color var(--navbar-shift-time), color var(--navbar-shift-time);
-    
 }
 
 /* Indicates Active Page, or a page was clicked*/

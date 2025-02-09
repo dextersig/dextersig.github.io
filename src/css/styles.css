@@ -1,0 +1,169 @@
+:root{
+    --navbar-shift-time: 0.24s;
+    --primary-color-dark: #1a000d; 
+    --primary-color-light: #d6ccd1;
+    --primary-color-main: #33001a;
+    --secondary-color-dark: #3c553c;
+    --secondary-color-light: #bbd5bb;
+    --secondary-color-main: #77aa77;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: var(--primary-color-main);
+    border: 0;
+    color: var(--primary-color-light);
+    font-family: "Quicksand", "Arial", "sans-serif";
+    font-size: 16px;
+    margin: 0;
+    overflow-y: scroll; /*Stop bouncing around when switching pages*/
+    overflow-x:hidden;
+    padding: 0;
+}
+
+a {
+    color: var(--secondary-color-light);
+}
+
+a:hover {
+    color: var(--secondary-color-main);
+}
+
+a:focus {
+    outline-color: var(--primary-color-light);
+}
+
+/* Header Styles */
+header{
+    align-items: center;
+    background-color: var(--primary-color-dark);
+    border-radius: 0 0 15% 15%;
+    box-sizing: border-box;
+    display:flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    width: 100vw;
+}
+
+header h1 {
+    color: var(--secondary-color-light);
+    font-size: 3rem;
+    font-weight: bold;
+    margin-left: 2vw;
+    text-align: center;
+}
+
+/* Nav Styles */
+
+header nav {
+    margin-right: 2vw;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+header nav ul li {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-left: 1rem;
+}
+
+header nav ul li:first-child{
+    padding-left: 0;
+}
+
+header nav ul li a{
+    border-radius: 15%;
+    padding: 0.5rem;
+    text-decoration:none;
+}
+
+/* Mouse moves off a Navbar Link*/
+header nav ul li a:not(:hover) {
+    background-color: var(--primary-color-dark);
+    color: var(--secondary-color-light);
+    transition: background-color var(--navbar-shift-time), color var(--navbar-shift-time);
+}
+
+/* Tabs/Mouse moves onto a Navbar Link*/
+header nav ul li a:hover,
+header nav ul li a:focus {
+    background-color: var(--primary-color-light);
+    color: var(--primary-color-dark);
+    transition: background-color var(--navbar-shift-time), color var(--navbar-shift-time);
+}
+
+/* Indicates Active Page, or a page was clicked*/
+header nav ul li.active a, header nav ul li a:active {
+    background-color: var(--secondary-color-light);
+    color: var(--primary-color-dark);
+}
+
+/* Main Content Styles */
+main{
+    font-size: 1.5rem;
+    padding: 0 4rem 0 4rem;
+}
+
+/* Footer Styles */
+footer{
+    border-radius: 15% 15% 0 0;
+    font-size: 1rem;
+    display: flex;
+    justify-content:flex-end;
+    margin-top: auto;
+    width: 100%;
+    background-color: var(--primary-color-dark);
+}
+
+footer p{
+    padding-right: 1rem;
+}
+
+@media(max-width: 767px) { /* Mobile */
+
+    header{
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+    }
+
+    header h1 {
+        color: var(--secondary-color-light);
+        font-size: 2rem;
+        font-weight: bold;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    header nav {
+        justify-content: center;
+        margin: 0;
+    }
+
+    header nav ul {
+        padding: 0;
+    }
+
+    header nav ul li {
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    header nav ul li a{
+        border-radius: 15%;
+        padding: 0.25rem;
+    }
+
+    main{
+        font-size: 1rem;
+        padding: 0 2rem 0 2rem;
+    }
+}
