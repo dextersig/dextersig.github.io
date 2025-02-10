@@ -35,6 +35,11 @@ a:focus {
     outline-color: var(--primary-color-light);
 }
 
+img {
+    max-width: 50vw;
+    border-radius: 15%;
+}
+
 /* Header Styles */
 header{
     align-items: center;
@@ -108,7 +113,11 @@ header nav ul li.active a, header nav ul li a:active {
 /* Main Content Styles */
 main{
     font-size: 1.5rem;
-    padding: 0 4rem 0 4rem;
+    padding: 0 25vw 0 25vw;
+}
+
+main .postlist {
+    list-style-type: none;
 }
 
 /* Footer Styles */
@@ -124,6 +133,12 @@ footer{
 
 footer p{
     padding-right: 1rem;
+}
+
+@media(max-width: 900px) {
+    main {
+        padding: 0 6vw 0 6vw;
+    }
 }
 
 @media(max-width: 767px) { /* Mobile */
@@ -164,6 +179,5 @@ footer p{
 
     main{
         font-size: 1rem;
-        padding: 0 2rem 0 2rem;
     }
 }

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
+    <title> A Defence of Telemetry </title>
+  </head>
+
+  <body>
+
+    <header>
+    <h1>dextersig</h1>
+    <nav>
+    <ul>
+        <li class=""><a href="/">home</a></li>
+        <li class=""><a href="/blog">blog</a></li>
+        <li class=""><a href="/contact">contact</a></li>
+    </ul>
+    </nav>
+</header>
+    <main>
+      <h2 class="post-title">A Defence of Telemetry</h2>
+
+      <p><i>Mar 23, 2024</i></p>
+
+      <p>Telemetry is a definitely a dirty word in the privacy sphere, and for good reason. The term is often associated with the disgustingly large amounts of data collected by Google, Meta, Microsoft, so on and so forth. Today, I write to argue in favour of telemetry... sometimes... when it's done right. There's a lot of conditions, but it <em>can</em> be done correctly.</p>
+<p>Yes, obviously there's lots of privacy-invasive telemetry out there. I'm not trying to claim that all telemetry is acceptable, or even that all privacy-oriented software has acceptable telemetry (Looking at you, Mozilla!).</p>
+<p>With that being said, the problem with actively opposing telemetry for privacy reasons is the assumption that it is inherently privacy invasive. Now, that sounds contradictory. After all, how does a developer collect extra information without breaching privacy? Let's talk about some examples of services that I use daily, with telemetry enabled by my personal choice:</p>
+<h3>Proton Suite</h3>
+<p>Yup, Proton Mail/Calendar/Drive/VPN/Pass, the Google suite replacement. One of the best known privacy services out there has telemetry enabled <em>by default</em>. Creepy, right? Well, hold your horses for just a second, because it's a lot better under the surface.</p>
+<p>For starters, while it isn't explicitly stated in the settings, they confirmed <a href="tab:https://www.reddit.com/r/ProtonMail/comments/w21g41/deleted_by_user/">in response to a Reddit post</a> as well as their <a href="tab:https://proton.me/legal/privacy">privacy policy</a> that all of the data they collect through these telemetry options is both completely anonymous, and never sold to any third parties. That's definitely a good start!</p>
+<p>But what data do they collect in the first place? Well, the two toggles in the privacy settings are for &quot;Usage Statistics&quot; and &quot;Crash Reports&quot;, both very reasonable things to collect.</p>
+<ul>
+<li>Crash reports are obviously used to make the apps more stable, without this information the apps would have noticeably more problems.</li>
+<li>Usage statistics are a little bit tougher, but all we have to do is look at Firefox to understand. Most privacy-oriented modifications to Firefox, whether it be a fork or user.js profile, strip Mozilla's telemetry out of the program. Now consider how <a href="tab:https://www.youtube.com/watch?v=ugnOM2mzgNU">lots of privacy enthusiasts are upset with direction Firefox has taken.</a> Without feature usage statistics, Proton, as well as other application developers, are basically flying blind as to what their customers want.</li>
+</ul>
+<p>Proton is basically the perfect example of what I <em>expect</em> from telemetry, the right balance between beneficial to the developers while still respecting user privacy. It's completely anonymous, very clear what they collect and what it's used for, and very easy to opt-out. Even though I pay the subscription for Proton Unlimited, I still have their telemetry enabled to further help the service improve.</p>
+<h3>KDE</h3>
+<p>KDE is a Linux desktop environment that's very strongly recommended by privacy enthusiasts. Why does it have <em>any</em> telemetry at all? Well, the justification behind this is in the details:</p>
+<ul>
+<li>All telemetry is opt-in. Users have to actively search out the telemetry options and enable it.</li>
+<li>They're very clear about the fact that they do not collect personal data, files, visited websites, or any identifying information at all.</li>
+<li>They explicitly say that all telemetry is entirely anonymous.</li>
+<li>There are multiple different levels of information that can be shared by the user, and they're very clear about what gets sent at every level.</li>
+</ul>
+<p>This is about as far as I'd expect any developer to go with privacy respecting analytics, without just flat out removing all telemetry. Being opt-in, <em>and</em> very well hidden means that the vast majority of users won't enable it, especially with the main demographic being privacy enthusiasts.</p>
+<h3>Brave Browser</h3>
+<p>Brave has had it's fair share of controversies, but the way they handle telemetry is pretty good. Upon booting up the browser for the first time, users are given the option to disable all telemetry. It's opt-out, sure, but it's made very easy to find and disable, especially during the first boot.</p>
+<p>The only telemetry that isn't explicitly labelled anonymous is crash reports, for stability improvements. Both their product analytics, and daily usage ping for estimating user count are entirely private. All three options are given separate toggles in the privacy settings, so a user can enable whichever options they'd like.</p>
+<p>Brave is also a perfect example of what happens to these sorts of products <em>without</em> any telemetry. One of the strongest elements of the Brave Browser is their randomised fingerprint protection; it's second to the Tor Browser, but without any of the speed penalties. However, a few months ago <a href="tab:https://brave.com/privacy-updates/28-sunsetting-strict-fingerprinting-mode/">Brave decided to remove their stricter fingerprinting option that would break some websites</a>. One of their main reasons for the decision was their analytics suggesting less than 0.5% of users enabled the feature. The thing is, most people enabling strict fingerprint protection are the same type of people to disable all telemetry. <strong>In this instance, disabling telemetry actively hurt the privacy options of users.</strong></p>
+<h3>So what does acceptable telemetry look like?</h3>
+<p>This really depends on what your threat model looks like! Some people are digital ghosts, and want absolutely nothing tracked about them. For those use cases, I agree that telemetry of any amount is unwanted. My only concern with digital privacy is trying to be more aware of surveillance capitalism, and by extension unethical use of our personal data by big corporations. (Side note to myself; differing threat models would make for a really good post later on!)</p>
+<p>Here are the traits that I look for before enabling telemetry of any kind on the programs I use:</p>
+<ul>
+<li>It's either opt-in, or very <em>very</em> easy to opt-out.</li>
+<li>The developer is very clear about what data is collected and why.</li>
+<li>All of the data collected is reasonable for improving their service.</li>
+<li>The telemetry is anonymous and cannot be tied back to my account.</li>
+<li>The developer doesn't sell the telemetry to any third parties.</li>
+</ul>
+<p>Telemetry, when implemented ethically, is a good thing. We've seen with Firefox, and especially Brave, how telemetry can affect the decisions that developers make with their products. As someone that's enthusiastic about some of these services being able to hit the mainstream, I like to enable telemetry to help the developers create a better product where I can, so that hopefully privacy can one day become the default rather than the niche.</p>
+
+    </main>
+
+    <footer>
+    <p>&copy;2025 Dexter Sigurdson </p>
+</footer>  
+  </body>
+</html>

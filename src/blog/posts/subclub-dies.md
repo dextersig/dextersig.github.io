@@ -1,0 +1,30 @@
+---
+title: Sub.Club Solved a Massive Problem with the Fediverse, and it Just Died
+date: 2025-01-25
+---
+
+Decentralized Social Media is *awesome*. Imagine if someone on Facebook could follow people on ~~X, The Everything App~~ the platform formerly known as Twitter, or message a friend on YouTube.
+
+An easy way of explaining decentralized social media is by referencing email as a base. Let's say I'm using [Proton Mail](https://proton.me) and my friend uses Google Gmail. Despite the fact that we are using completely different apps from different companies, we're still able to connect. If someone has the proper know-how, they could even set up their own email server on their computer, and it would work with the apps offered by companies as a service. The "fediverse" works in a similar fashion to email but for social media, and ActivityPub is the underlying protocol. There are other protocols that achieve similar goals, but for the sake of this topic I'm going to focus on ActivityPub. [Being backed by the W3C](https://www.w3.org/TR/activitypub/), and having by far the most users compared to other protocols makes it the most relevant standard today.
+
+ActivityPub apps have all sorts of advantages over "traditional" social media. As an example, if a social media company starts [enshittifying](https://en.wikipedia.org/wiki/Enshittification) their platform, then you can easily migrate to a new platform, and still interact seamlessly with the content from the old one. Users can even keep their followers while transitioning between platforms!
+
+ActivityPub also makes moderation a ***lot*** easier. Moderation is done by individual servers hosting an "instance" of an ActivityPub app. This splits the heavy job of moderation into chunks manageable by just a few people; closer in scale to a Discord server than literally billions of posts every day. Additionally, there are features for instance administrators to block other instances. This means that instances that don't properly moderate their own content are a non-issue. 
+
+If you're interested in how this works further, [TechAltar](https://www.youtube.com/watch?v=R3ptZ1W-FRA) has an excellent video that breaks everything down. Regardless of the inner workings, this is *not* just some fad that is going to die out. [Mastodon](https://joinmastodon.org/), [WordPress Blogs](https://wordpress.com/blog/2023/03/17/making-the-social-web-a-better-place-activitypub-for-wordpress-joins-the-automattic-family/), and even [Facebook's Threads](https://engineering.fb.com/2024/03/21/networking-traffic/threads-has-entered-the-fediverse/) are services with millions of users that have adopted the ActivityPub protocol and are able to communicate with each other smoothly. This creates a network of hundreds of millions of people that are able to communicate with each other, and that user count is growing fast.
+
+That being said, there are a lot of problems that need to be solved before the Fediverse can truly attain mainstream adoption. In my eyes, one of the biggest issues to be solved is creator monetization.   Currently, the main way that internet creators monetize their work is through advertisements (more on this later), or through walled-garden platforms like Patreon or KoFi. The advantages of using a decentralized network kinda disappear if creators have to redirect their fans to a centralized platform to keep themselves afloat.
+
+Enter Sub.Club, a specialized ActivityPub app that enabled monetization for creators. While the functionality was similar to Patreon or KoFi, what differentiated this service was that they took advantage of ActivityPub to specialize their service towards Fediverse creators. Accounts were linked directly to a creators' already existing Fediverse account, and creators could post to their premium subscribers *directly* from their main account.
+
+Unfortunately, by the time I found out about Sub.Club they had already shut down, just earlier this month. They used to have a website, but the URL is broken and I can't find any working archives on the Internet Archive. The only evidence I have that they even exist is [their (abandoned) Mastodon profile](https://mastodon.social/@subclub), and some articles written for The Verge.
+
+[Based on those Verge articles](https://www.theverge.com/2024/12/16/24322574/sub-club-mastodon-mammoth-fediverse-shutting-down), it looks like Sub.Club shut down due to lack of funding. Considering how small the demographic is for a service like Sub.Club, and how they only launched in August last year, it makes sense why a shutdown had to happen. I'm still upset about it.
+
+Federated social media *needs* a method of monetization, especially in regards to the creators. Advertisements aren't an answer, at least not as they exist right now. If a service or creators implement advertisements to make ends meet, users will just move to another ActivityPub app and continue to enjoy not having ads. Without services like Sub.Club, the largest creators, the ones with fans that will make the largest impact to the adoption of ActivityPub, won't be able to properly migrate to federated social media.
+
+Where does this leave things? Personally, I love the idea behind the Fediverse. [I recently made a Mastodon account for byte-sized intrusive thoughts](https://mstdn.ca/@threedollarchickenparm). I also plan to migrate the larger intrusive thoughts on this site to an ActivityPub-enabled blogging service. However, I do both of these for fun, and don't expect to make a living off of them.
+
+ActivityPub's interoperability is the future of social media. Some companies like Facebook have already noticed the many advantages, but creators need a method of monetizing the content that they make. With those large creators and their audiences, the Fediverse would grow exponentially faster, and social media would be that much better for everybody.
+
+*If you have any thoughts or opinions you'd like to discuss, [I'd love to hear from you over on the Fediverse](https://mstdn.ca/@threedollarchickenparm)!*
