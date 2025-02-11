@@ -143,6 +143,7 @@ footer{
     width: 100%;
     background-color: var(--primary-color-dark);
     outline: 1px solid var(--secondary-color-dark);
+    margin-top: auto;
 }
 
 footer p{
