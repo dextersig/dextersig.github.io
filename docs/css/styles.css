@@ -123,9 +123,9 @@ main .postlist {
 
 /* Webring Styles */
 .webring {
-    margin: auto 25vw 0 25vw;
+    margin: auto 25vw 0.75vh 25vw;
     font-size: 1rem;
-    display: flex;
+    display: none;
     justify-content: space-evenly;
     background-color: var(--primary-color-dark);
     align-items: center;
@@ -140,7 +140,6 @@ footer{
     font-size: 1rem;
     display: flex;
     justify-content:flex-end;
-    margin-top: auto;
     width: 100%;
     background-color: var(--primary-color-dark);
     outline: 1px solid var(--secondary-color-dark);
@@ -155,7 +154,7 @@ footer p{
         padding: 0 6vw 0 6vw;
     }
     .webring {
-        margin: 0 6vw 0 6vw;
+        margin: auto 6vw 0.75vh 6vw;
     }
 }
 

@@ -12,9 +12,12 @@
 
     {% include "header.njk" %}
     <main>
-      {{ content | safe}}
+      {{ content | safe}}   
     </main>
 
+    {% include "webring.njk"  %} 
+    
+    
     {% include "footer.njk" %}  
   </body>
 </html>
