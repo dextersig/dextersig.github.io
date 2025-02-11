@@ -44,13 +44,14 @@ img {
 header{
     align-items: center;
     background-color: var(--primary-color-dark);
-    border-radius: 0 0 15% 15%;
+    border-radius: 0 0 2.5vw 2.5vw;
     box-sizing: border-box;
     display:flex;
     justify-content: space-between;
     position: sticky;
     top: 0;
     width: 100vw;
+    outline: 1px solid var(--secondary-color-dark);
 }
 
 header h1 {
@@ -84,7 +85,7 @@ header nav ul li:first-child{
 }
 
 header nav ul li a{
-    border-radius: 15%;
+    border-radius: 2.5vw;
     padding: 0.5rem;
     text-decoration:none;
 }
@@ -120,15 +121,29 @@ main .postlist {
     list-style-type: none;
 }
 
+/* Webring Styles */
+.webring {
+    margin: auto 25vw 0 25vw;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--primary-color-dark);
+    align-items: center;
+    text-align: center;
+    border-radius: 2.5vw;
+    outline: 1px solid var(--secondary-color-dark);
+}
+
 /* Footer Styles */
 footer{
-    border-radius: 15% 15% 0 0;
+    border-radius: 2.5vw 2.5vw 0 0;
     font-size: 1rem;
     display: flex;
     justify-content:flex-end;
     margin-top: auto;
     width: 100%;
     background-color: var(--primary-color-dark);
+    outline: 1px solid var(--secondary-color-dark);
 }
 
 footer p{
@@ -139,9 +154,13 @@ footer p{
     main {
         padding: 0 6vw 0 6vw;
     }
+    .webring {
+        margin: 0 6vw 0 6vw;
+    }
 }
 
-@media(max-width: 767px) { /* Mobile */
+/* Mobile */
+@media(max-width: 767px) { 
 
     header{
         align-items: center;
@@ -179,5 +198,9 @@ footer p{
 
     main{
         font-size: 1rem;
+    }
+
+    .webring {
+        font-size: 0.75rem;
     }
 }

@@ -1,5 +1,5 @@
 ---
-layout: basic.njk
+layout: home.njk
 title: Home - Dexter Sigurdson
 ---
 Hello, My name is Dexter! I'm a student working towards a Computer Science degree at a Canadian university.
