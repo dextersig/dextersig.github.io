@@ -31,9 +31,9 @@ What else might they be convinced by? These are some of the more obvious traits 
 
 ## Prepare for Questions
 
-It might be helpful to be prepared for questions that people might have about the service. [Here's a link to a Reddit AMA that Signal did a few years back](tab:https://www.reddit.com/r/technology/comments/kt91qk/signal_private_messenger_team_here_we_support_an/), which might be indicative about some of the questions people have.
+It might be helpful to be prepared for questions that people might have about the service. [Here's a link to a Reddit AMA that Signal did a few years back](https://www.reddit.com/r/technology/comments/kt91qk/signal_private_messenger_team_here_we_support_an/), which might be indicative about some of the questions people have.
 
-Important to note is that [as of February 20, Signal has announced the addition of usernames coming over the next few weeks.](tab:https://signal.org/blog/phone-number-privacy-usernames/) While users still need a phone number to sign up, nobody, including Signal themselves, has to have access to it. Phone numbers are only required to prevent the creation of spam accounts.
+Important to note is that [as of February 20, Signal has announced the addition of usernames coming over the next few weeks.](https://signal.org/blog/phone-number-privacy-usernames/) While users still need a phone number to sign up, nobody, including Signal themselves, has to have access to it. Phone numbers are only required to prevent the creation of spam accounts.
 
 ## Move Away From Other Services the Best You Can
 
@@ -46,8 +46,8 @@ This has actually helped convince some friends to switch over. The people that w
 
 ## Not Everyone Will be Willing to Switch
 
-And that's okay! I have yet to see someone, online or in-person, convince literally every contact of theirs to switch to Signal. Being able to convince most, or even just a few of your contacts to switch to Signal, has benefits. For one, it still *minimizes* the messages that are vulnerable to spying by third parties [like car manufacturers](tab:https://www.theverge.com/2023/11/9/23953798/automakers-collect-record-text-messages-federal-judge-ruling).
+And that's okay! I have yet to see someone, online or in-person, convince literally every contact of theirs to switch to Signal. Being able to convince most, or even just a few of your contacts to switch to Signal, has benefits. For one, it still *minimizes* the messages that are vulnerable to spying by third parties [like car manufacturers](https://www.theverge.com/2023/11/9/23953798/automakers-collect-record-text-messages-federal-judge-ruling).
 
-Another, more societal benefit is demonstrating the demand for digital privacy. Just recently, [Apple announced not only that they plan to adopt RCS this year, but that they want to work with the GSMA to add encryption to the RCS standard.](tab:https://9to5mac.com/2023/11/16/apple-rcs-coming-to-iphone/) This will be a massive improvement over SMS and MMS, which are about as old as the Super NES and have no encryption whatsoever. If the increased security and encryption ends up working out as well, That would be an improvement over Google's implementation of RCS, which currently doesn't encrypt group chats. Signal Messenger and Signal Protocol were likely large contributors to showing Apple that there was a demand for better, encrypted messaging.
+Another, more societal benefit is demonstrating the demand for digital privacy. Just recently, [Apple announced not only that they plan to adopt RCS this year, but that they want to work with the GSMA to add encryption to the RCS standard.](https://9to5mac.com/2023/11/16/apple-rcs-coming-to-iphone/) This will be a massive improvement over SMS and MMS, which are about as old as the Super NES and have no encryption whatsoever. If the increased security and encryption ends up working out as well, That would be an improvement over Google's implementation of RCS, which currently doesn't encrypt group chats. Signal Messenger and Signal Protocol were likely large contributors to showing Apple that there was a demand for better, encrypted messaging.
 
 Signal is undeniable proof that privacy-by-default is a realistic goal. Showing big tech companies that there's consumer demand for ethical management of user data is an important step in motivating them to do so. In order to show the demand, users need to switch to platforms and services that respect their privacy more, and Signal is the golden standard to prove the viability of that concept.

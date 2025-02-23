@@ -6,13 +6,13 @@ While I was doing research for switching to a more private phone, something that
 
 ### The Good
 
-#### [GrapheneOS](tab:https://grapheneos.org/)
+#### [GrapheneOS](https://grapheneos.org/)
 
 My experience with GrapheneOS so far is surprisingly phenomenal. Their main claim to fame is their sandboxed Google Play Services, which have to be installed by the user. It works exactly like regular Google Play Services, but it's treated like any other app, meaning the user can go in and restrict access to things like location or health data. It's an excellent feature, and extremely difficult to implement correctly, so props to the developers for the stability and ease of use.
 
 Unfortunately, the entire point of this experiment is to move away from Google Play Services altogether. This meant I couldn't install Sandboxed Google Play Services, but GrapheneOS still works amazingly. They've implemented security fixes that the stock Pixel devices haven't yet, and have a couple extra cool features like scrambled PIN codes.
 
-I'd recommend anyone with a Pixel phone reading this to at least do some research and see if GrapheneOS with sandboxed Google Play Services is something that could work for them. [Their website has a great FAQ](tab:https://grapheneos.org/faq) that answered a lot of the questions I had when I started out. Literally every app I used worked after some configuration, and it's pretty easy to get going thanks to their web-based installer. It's ironic that Google Pixel phones are the only supported devices at the moment, but it's still an excellent alternative to the stock operating system, and I plan to donate to help development.
+I'd recommend anyone with a Pixel phone reading this to at least do some research and see if GrapheneOS with sandboxed Google Play Services is something that could work for them. [Their website has a great FAQ](https://grapheneos.org/faq) that answered a lot of the questions I had when I started out. Literally every app I used worked after some configuration, and it's pretty easy to get going thanks to their web-based installer. It's ironic that Google Pixel phones are the only supported devices at the moment, but it's still an excellent alternative to the stock operating system, and I plan to donate to help development.
 
 #### Messaging
 
@@ -20,29 +20,29 @@ I expected messaging to be particularly difficult, and was pleasantly surprised.
 
 * Signal: This was one of the easiest apps to transition to a device without Google Play Services, but also one of the most complex under the hood because of Signal's minimal data collection. The good news was that the official client was designed to work this way, notifications and all. The bad news was that I had to create a backup of all my messages onto a flash drive in order to transfer it over. Thankfully, the backup worked pretty much flawlessly, and I've been running the app exactly the same as I was before. This is another service alongside GrapheneOS that I plan to donate to.
 
-* Telegram: [Telegram FOSS](tab:https://github.com/Telegram-FOSS-Team/Telegram-FOSS) is a fork of the official Telegram client, designed to remove all of the proprietary blobs of the official client. Using this client was vital, as notifications wouldn't work otherwise (I'll talk about this later). The nice part is that all the messages transferred over without a backup, something I couldn't say about any other app in this category.
+* Telegram: [Telegram FOSS](https://github.com/Telegram-FOSS-Team/Telegram-FOSS) is a fork of the official Telegram client, designed to remove all of the proprietary blobs of the official client. Using this client was vital, as notifications wouldn't work otherwise (I'll talk about this later). The nice part is that all the messages transferred over without a backup, something I couldn't say about any other app in this category.
 
 * Whatsapp: The messaging app that I use by far the least, which is a good thing because I couldn't find a way to perform a message backup without signing into a Google account. It's really annoying that I'm locked into using it by only a couple important group chats, but at least it does still work.
 
 #### Open-Source Apps I was already using
 
 These are applications that I just happened to be using that were already open source and designed to work without Google Play. 
-* [Feeder](tab:https://github.com/spacecowboy/Feeder) - My RSS Feed 
-* [Grayjay](tab:https://grayjay.app/) - a YouTube/Twitch/Nebula/etc client with solid privacy compared to the native clients.
-* [Tusky](tab:https://tusky.app/) - Mastodon client
-* [Notesnook](tab:https://notesnook.com/) - Encrypted Note-taking app
+* [Feeder](https://github.com/spacecowboy/Feeder) - My RSS Feed 
+* [Grayjay](https://grayjay.app/) - a YouTube/Twitch/Nebula/etc client with solid privacy compared to the native clients.
+* [Tusky](https://tusky.app/) - Mastodon client
+* [Notesnook](https://notesnook.com/) - Encrypted Note-taking app
 
 #### Google Play Store apps that just work??
 
-Yeah, this was by far the most surprising thing to me. There's more than a few apps on the Google Play Store that work pretty much flawlessly without any problems on a degoogled phone, and GrapheneOS's protections make the apps more private than they would have been on a standard Google Pixel. I chose to install these apps without signing into a Google account through [Aurora Store](tab:https://github.com/whyorean/AuroraStore). [Plexus](tab:https://plexus.techlore.tech/) was a great start for researching what needed to be switched for an alternative, and what would just work anyway.
+Yeah, this was by far the most surprising thing to me. There's more than a few apps on the Google Play Store that work pretty much flawlessly without any problems on a degoogled phone, and GrapheneOS's protections make the apps more private than they would have been on a standard Google Pixel. I chose to install these apps without signing into a Google account through [Aurora Store](https://github.com/whyorean/AuroraStore). [Plexus](https://plexus.techlore.tech/) was a great start for researching what needed to be switched for an alternative, and what would just work anyway.
 
 ### The Bad
 
 #### RCS Messaging
 
-This was the one messaging app with issues I eluded to earlier. Google's implementation of encrypted RCS messaging only works with Google Play Services installed. Hopefully, things will change with [Apple promising RCS support for iPhones in 2024](tab:https://9to5mac.com/2023/11/16/apple-rcs-coming-to-iphone/). Until then, I'm stuck with yucky SMS and MMS texting, ugh.
+This was the one messaging app with issues I eluded to earlier. Google's implementation of encrypted RCS messaging only works with Google Play Services installed. Hopefully, things will change with [Apple promising RCS support for iPhones in 2024](https://9to5mac.com/2023/11/16/apple-rcs-coming-to-iphone/). Until then, I'm stuck with yucky SMS and MMS texting, ugh.
 
-Worst case scenario, GrapheneOS has a messenger built-in, so I would be able to text in some form. I still wanted a nicer looking replacement, which is where [QUIK Messegner](tab:https://github.com/octoshrimpy/quik) came in. Notifications are a minute or two late sometimes, but they do work. I used [SMS Import/Export](tab:https://github.com/tmo1/sms-ie?tab=readme-ov-file) to transfer over messages and call logs from my previous phone, and it worked perfectly fine.
+Worst case scenario, GrapheneOS has a messenger built-in, so I would be able to text in some form. I still wanted a nicer looking replacement, which is where [QUIK Messegner](https://github.com/octoshrimpy/quik) came in. Notifications are a minute or two late sometimes, but they do work. I used [SMS Import/Export](https://github.com/tmo1/sms-ie?tab=readme-ov-file) to transfer over messages and call logs from my previous phone, and it worked perfectly fine.
 
 #### Notifications
 
