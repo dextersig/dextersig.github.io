@@ -5,10 +5,11 @@ module.exports = function(eleventyConfig) {
 
     eleventyConfig.addPassthroughCopy("src/css");
     eleventyConfig.addPassthroughCopy("src/js");
+    eleventyConfig.addPassthroughCopy("src/robots.txt");
 
     eleventyConfig.addFilter('readableDate', (dateObj) => {
       return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat(
-        'LLL dd, yyyy'
+        'yyyy-MM-dd'
       );
     })
   
