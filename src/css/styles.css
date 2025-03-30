@@ -9,17 +9,17 @@
 }
 
 body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
     background-color: var(--primary-color-main);
     border: 0;
     color: var(--primary-color-light);
+    display: flex;
     font-family: "Quicksand", "Arial", "sans-serif";
+    flex-direction: column;
     font-size: 16px;
     margin: 0;
-    overflow-y: scroll; /*Stop bouncing around when switching pages*/
+    min-height: 100vh;
     overflow-x:hidden;
+    overflow-y: scroll; /*Stop bouncing around when switching pages*/
     padding: 0;
 }
 
@@ -36,8 +36,8 @@ a:focus {
 }
 
 img {
-    max-width: 50vw;
     border-radius: 15%;
+    max-width: 50vw;
 }
 
 /* Header Styles */
@@ -48,10 +48,10 @@ header{
     box-sizing: border-box;
     display:flex;
     justify-content: space-between;
+    outline: 1px solid var(--secondary-color-dark);
     position: sticky;
     top: 0;
     width: 100vw;
-    outline: 1px solid var(--secondary-color-dark);
 }
 
 header h1 {
@@ -63,7 +63,6 @@ header h1 {
 }
 
 /* Nav Styles */
-
 header nav {
     margin-right: 2vw;
 }
@@ -123,33 +122,34 @@ main .postlist {
 
 /* Webring Styles */
 .webring {
-    margin: auto 25vw 0.75vh 25vw;
-    font-size: 1rem;
-    display: none;
-    justify-content: space-evenly;
-    background-color: var(--primary-color-dark);
     align-items: center;
-    text-align: center;
+    background-color: var(--primary-color-dark);
     border-radius: 2.5vw;
+    display: none;
+    font-size: 1rem;
+    justify-content: space-evenly;
+    margin: auto 25vw 0.75vh 25vw;
     outline: 1px solid var(--secondary-color-dark);
+    text-align: center;
 }
 
 /* Footer Styles */
 footer{
-    border-radius: 2.5vw 2.5vw 0 0;
-    font-size: 1rem;
-    display: flex;
-    justify-content:flex-end;
-    width: 100%;
     background-color: var(--primary-color-dark);
-    outline: 1px solid var(--secondary-color-dark);
+    border-radius: 2.5vw 2.5vw 0 0;
+    display: flex;
+    font-size: 1rem;
+    justify-content:flex-end;
     margin-top: auto;
+    outline: 1px solid var(--secondary-color-dark);
+    width: 100%;
 }
 
 footer p{
     padding-right: 1rem;
 }
 
+/* Small Window */
 @media(max-width: 900px) {
     main {
         padding: 0 6vw 0 6vw;
