@@ -1,6 +1,6 @@
 ---
 title: Sub.Club Solved a Massive Problem with the Fediverse, and it Just Died
-date: 2025-01-25
+date: 2025-01-25T12:00:00-06:00
 ---
 
 Decentralized Social Media is *awesome*. Imagine if someone on Facebook could follow people on ~~X, The Everything App~~ the platform formerly known as Twitter, or message a friend on YouTube.

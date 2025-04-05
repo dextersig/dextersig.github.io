@@ -1,6 +1,6 @@
 ---
 title: Why Signal is Important, and How to Get Contacts on Signal
-date: 2024-02-19
+date: 2024-02-19T12:00:00-06:00
 ---
 One of the largest problems with trying to become digitally private in our world is a lack of mass adoption of privacy-respecting software. YouTube, Twitter/X, Discord, Microsoft Office, and so on all have privacy respecting alternatives out there. However, the user base of these programs is tiny relative to the big corporations offerings, meaning a worse experience in several ways. Every so often, a privacy-oriented app garners mainstream attention. As a privacy enthusiast, it's important to me to endorse these programs when they make a splash, as they're the best chance at changing the status quo for digital privacy.
 

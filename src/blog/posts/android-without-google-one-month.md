@@ -1,6 +1,6 @@
 ---
 title: "Trying Completely Degoogled Android: One Month Later"
-date: 2024-04-23
+date: 2024-04-23T12:00:00-06:00
 ---
 Hello! This article is a followup on the previous article "Trying Completely Degoogled Android: Three Days Later", where I took my Google Pixel 7 and installed a custom version of Android that had no dependency on Google whatsoever.
 

@@ -15,26 +15,25 @@ module.exports = function(eleventyConfig) {
       language: "en",
       title: "Death, Taxes, & Off-By-One Errors",
       subtitle: "",
-      base: "https://dextersig.ca",
+      base: "https://dextersig.ca/blog",
       author: {
-        name: "Dexter Sigurdson",
+        name: "Dex",
         email: "dextersig@protonmail.com"
       }
     }
   });
   
-  
   // Passthrough Files
-    eleventyConfig.addPassthroughCopy("src/css");
-    eleventyConfig.addPassthroughCopy("src/js");
-    eleventyConfig.addPassthroughCopy("src/robots.txt");
-    eleventyConfig.addPassthroughCopy("src/CNAME");
+  eleventyConfig.addPassthroughCopy("src/css");
+  eleventyConfig.addPassthroughCopy("src/js");
+  eleventyConfig.addPassthroughCopy("src/robots.txt");
+  eleventyConfig.addPassthroughCopy("src/CNAME");
 
-    eleventyConfig.addFilter('readableDate', (dateObj) => {
-      return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat(
-        'yyyy-MM-dd'
-      );
-    })
+  eleventyConfig.addFilter('readableDate', (dateObj) => {
+    return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat(
+      'yyyy-MM-dd'
+    );
+  })
   
     return {
       htmlTemplateEngine: "njk",

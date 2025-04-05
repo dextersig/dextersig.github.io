@@ -1,6 +1,6 @@
 ---
 title: "Switching to Linux: Is It Difficult?"
-date: 2024-07-12
+date: 2024-07-12T12:00:00-06:00
 ---
 Short answer: Yes. But also, no? It's complicated.
 

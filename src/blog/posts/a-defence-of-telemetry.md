@@ -1,5 +1,5 @@
 ---
-date: 2024-03-23
+date: 2024-03-23T12:00:00-06:00
 title: "A Defence of Telemetry"
 ---
 Telemetry is a definitely a dirty word in the privacy sphere, and for good reason. The term is often associated with the disgustingly large amounts of data collected by Google, Meta, Microsoft, so on and so forth. Today, I write to argue in favour of telemetry... sometimes... when it's done right. There's a lot of conditions, but it *can* be done correctly.

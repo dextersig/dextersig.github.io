@@ -1,6 +1,6 @@
 ---
 title: "How to Own Your PC Games: A Comprehensive Guide to Avoiding DRM"
-date: 2024-05-26
+date: 2024-05-26T12:00:00-06:00
 ---
 The PC Gaming industry is absolutely crazy right now. Controversies surrounding Digital Rights Management, usually shorthanded to DRM, feel as old as PC gaming itself, but the last couple weeks have seen a particularly strong anger directed at the practice. [Ubisoft is under fire for shutting down The Crew](https://www.ign.com/articles/delisting-the-crew-makes-sense-preventing-it-from-ever-being-played-again-does-not), and [Helldivers 2's rating on Steam has nose-dived because of a (now-reversed) PlayStation Network account requirement](https://www.pcgamer.com/games/third-person-shooter/with-over-84-thousand-negative-helldivers-2-steam-reviews-in-two-days-developer-arrowhead-seems-to-be-grappling-with-sony-over-its-controversial-psn-sign-in-requirement/). With tensions between publishers and gamers growing more and more intense, it begs the question: What can we do as consumers to fully own our games?
 

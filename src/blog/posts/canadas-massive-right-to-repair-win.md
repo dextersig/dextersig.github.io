@@ -1,6 +1,6 @@
 ---
 title: "Canada's Exciting New Right to Repair Laws Have a Large Problem"
-date: 2024-11-17
+date: 2024-11-17T12:00:00-06:00
 ---
 Recently, Canadians and Right to Repair activists scored a win! [Bill C-244](https://www.parl.ca/legisinfo/en/bill/44-1/c-244?view=progress) and [Bill C-294](https://www.parl.ca/legisinfo/en/bill/44-1/c-294?view=details) are the first federal bills in support of the Right to Repair movement to be passed, *in any country*. Despite one inescapable problem with the bill, I still consider it an overall win for repair groups across the world.
 

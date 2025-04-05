@@ -1,6 +1,6 @@
 ---
 title: The World of Privacy-Respecting Smartwatches is Insane.
-date: 2024-02-21
+date: 2024-02-21T12:00:00-06:00
 ---
 
 Hoo boy. Smartwatches and privacy get along about as well as fire and oil. The main advantage over a traditional analog watch is in direct conflict with what privacy enthusiasts want; devices that are capable of tracking your sleep patterns, heart rate, stress levels, location, movement speed, and many other body traits are an absolute no-go. This isn't helped by the fact that most smartwatches upload data back to the servers of the company that maintains the product. Most people concerned that Google is tracking their browsing habits aren't exactly thrilled by the idea of that same company selling data about their sleeping habits to advertisers.

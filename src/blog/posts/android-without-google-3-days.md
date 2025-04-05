@@ -1,6 +1,6 @@
 ---
 title: "Trying Completely Degoogled Android: Three Days Later"
-date: 2024-03-27
+date: 2024-03-27T12:00:00-06:00
 ---
 While I was doing research for switching to a more private phone, something that was really important to me was the ability to easily "Degoogle", or remove any Google Services from the phone. Despite my choice of (ironically) a Google Pixel 7 for compatibility with GrapheneOS, I still had their sandboxed Google Play Services installed for a long time. As of March 25, 2024, I've officially reset my phone, and chosen NOT to install Google Play Services again. Let's talked about what's worked great so far, as well as what's been problematic.
 

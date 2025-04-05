@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xml:base="https://dextersig.ca/" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xml:base="https://dextersig.ca/blog" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Death, Taxes, &amp; Off-By-One Errors</title>
-    <link>https://dextersig.ca/</link>
+    <link>https://dextersig.ca/blog</link>
     <atom:link href="https://dextersig.ca/blog/blog/rss.xml" rel="self" type="application/rss+xml" />
     <description></description>
     <language>en</language>
@@ -23,8 +23,8 @@
 &lt;p&gt;ActivityPub&#39;s interoperability is the future of social media. Some companies like Facebook have already noticed the many advantages, but creators need a method of monetizing the content that they make. With those large creators and their audiences, the Fediverse would grow exponentially faster, and social media would be that much better for everybody.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;If you have any thoughts or opinions you&#39;d like to discuss, &lt;a href=&quot;https://mstdn.ca/@threedollarchickenparm&quot;&gt;I&#39;d love to hear from you over on the Fediverse&lt;/a&gt;!&lt;/em&gt;&lt;/p&gt;
 </description>
-      <pubDate>Sat, 25 Jan 2025 24:00:00 GMT</pubDate>
-      <dc:creator>Dexter Sigurdson</dc:creator>
+      <pubDate>Sat, 25 Jan 2025 18:00:00 GMT</pubDate>
+      <dc:creator>Dex</dc:creator>
       <guid>https://dextersig.ca/blog/posts/subclub-dies/</guid>
     </item>
     <item>
@@ -45,8 +45,8 @@
 &lt;p&gt;That universality would be great because there &lt;em&gt;are&lt;/em&gt; some simple TPMs that are possible to bypass individually. Primarily, this would effect simple password locks, especially on slightly older devices where passwords might be small enough that modern technology can crack a password relatively quickly and simply.&lt;/p&gt;
 &lt;p&gt;I hope the new bills are a first domino, tipped over and leading to stronger repair legislation. There are lots of ways to go about it. Further amendments to the Copyright Act that allow for the distribution of repair tools, or a bill that prevents companies from implementing TPMs that restrict hardware repair would be perfect. It would be even more exciting to see my home country at the forefront of that groundbreaking legislation. If you feel the same, please consider supporting &lt;a href=&quot;https://www.canrepair.ca/&quot;&gt;CanRepair&lt;/a&gt;, the amazing Right to Repair group that got the new bills passed in the first place.&lt;/p&gt;
 </description>
-      <pubDate>Sun, 17 Nov 2024 24:00:00 GMT</pubDate>
-      <dc:creator>Dexter Sigurdson</dc:creator>
+      <pubDate>Sun, 17 Nov 2024 18:00:00 GMT</pubDate>
+      <dc:creator>Dex</dc:creator>
       <guid>https://dextersig.ca/blog/posts/canadas-massive-right-to-repair-win/</guid>
     </item>
     <item>
@@ -63,8 +63,8 @@
 &lt;p&gt;When you&#39;ve chosen a distro, install it &lt;em&gt;alongside&lt;/em&gt; your other operating system. Dual boot on the same SSD as your gaming rig, overwrite that ten year old laptop gathering dust in your closet, or even try things out in a virtual machine first. &lt;strong&gt;Please don&#39;t purge Windows from your life right at the start!&lt;/strong&gt; Even if you only use Linux once a month, it still gets you a little bit more comfortable each time. There are a lot of Windows programs that are difficult or even impossible to get working, so you need to make sure that you have everything you need on Linux before a complete switch.&lt;/p&gt;
 &lt;p&gt;Transitioning to Linux can be difficult without tempered expectations. I wouldn&#39;t call it more difficult to use than Windows, but it can definitely feel that way because it&#39;s different. Make sure to backup any important data to another device, pick a good beginner distro, and please don&#39;t fully erase Windows right at the start. Missing any of these steps can lead to massive frustrations. Following the steps makes the process of getting away from Windows or Apple not just less stressful, but even enjoyable.&lt;/p&gt;
 </description>
-      <pubDate>Fri, 12 Jul 2024 24:00:00 GMT</pubDate>
-      <dc:creator>Dexter Sigurdson</dc:creator>
+      <pubDate>Fri, 12 Jul 2024 18:00:00 GMT</pubDate>
+      <dc:creator>Dex</dc:creator>
       <guid>https://dextersig.ca/blog/posts/switching-to-linux-difficulty/</guid>
     </item>
     <item>
@@ -103,8 +103,8 @@
 &lt;p&gt;Backups of games also are a good idea, especially when buying from a platform like Steam where DRM can be added in an update. Digital backups are an entire can of worms in itself that I won&#39;t go into detail about much here (although plan to in the future!). For now, know that Lutris supports installing games through GOG&#39;s installer files rather than downloading the game over again, a very strong selling point for those who plan to backup those installation files anyway.&lt;/p&gt;
 &lt;p&gt;Of course, doing none of this and just using these platforms exactly like Steam is an option. That&#39;s the beauty of owning games this way: customers get the &lt;strong&gt;options&lt;/strong&gt; to do what they want with their games. When research started for this article, the hypothesis was that it would be a big sacrifice to only buy games this way, but in retrospect there isn&#39;t that much compromise here! Most big names in the industry have at least a few games available through GOG, itch.io is literally built for indie developers, and even some titles I had already bought on Steam can be backed up and played how I&#39;d like to. I don&#39;t plan to buy games exclusively this way, &lt;a href=&quot;https://store.steampowered.com/app/1061910&quot;&gt;Metal Hellsinger&lt;/a&gt; is my favourite game and it has DRM, but knowing that the vast majority of my game library is &lt;em&gt;mine&lt;/em&gt; while the fight between gamers and game studios rages on makes me feel warm inside. Buying through these storefronts gives gamers a way to show studios that this is what we want, hopefully paving the way for this to become the norm, not the exception.&lt;/p&gt;
 </description>
-      <pubDate>Sun, 26 May 2024 24:00:00 GMT</pubDate>
-      <dc:creator>Dexter Sigurdson</dc:creator>
+      <pubDate>Sun, 26 May 2024 18:00:00 GMT</pubDate>
+      <dc:creator>Dex</dc:creator>
       <guid>https://dextersig.ca/blog/posts/how-to-own-your-pc-games/</guid>
     </item>
     <item>
@@ -124,8 +124,8 @@
 &lt;h4&gt;It&#39;s Working For Me!&lt;/h4&gt;
 &lt;p&gt;So yeah, I plan to stay with it in the long term! Everything that I need to work is still working, and there&#39;s a massive privacy benefit in having zero Google services running on the phone.&lt;/p&gt;
 </description>
-      <pubDate>Tue, 23 Apr 2024 24:00:00 GMT</pubDate>
-      <dc:creator>Dexter Sigurdson</dc:creator>
+      <pubDate>Tue, 23 Apr 2024 18:00:00 GMT</pubDate>
+      <dc:creator>Dex</dc:creator>
       <guid>https://dextersig.ca/blog/posts/android-without-google-one-month/</guid>
     </item>
     <item>
@@ -175,8 +175,8 @@
 &lt;p&gt;If anyone out there is looking to try this for themselves, my recommendation is to not do everything all at once. Start by looking into GrapheneOS with sandboxed Google Play Services, or by looking into what apps you can replace or delete that rely on Google Play Services. Progressive Web Apps are also very helpful, they won&#39;t require Google Play Services as long as the browser doesn&#39;t require it either. It took me almost a year to get to a point where I could comfortably delete Google Play Services entirely, and even then I&#39;m still running into a couple big problems.&lt;/p&gt;
 &lt;p&gt;I plan to write about this again in a month or two, when I&#39;ve had more time to look into solutions for the problems I&#39;m having, or catch new problems that I haven&#39;t seen already.&lt;/p&gt;
 </description>
-      <pubDate>Wed, 27 Mar 2024 24:00:00 GMT</pubDate>
-      <dc:creator>Dexter Sigurdson</dc:creator>
+      <pubDate>Wed, 27 Mar 2024 18:00:00 GMT</pubDate>
+      <dc:creator>Dex</dc:creator>
       <guid>https://dextersig.ca/blog/posts/android-without-google-3-days/</guid>
     </item>
     <item>
@@ -219,8 +219,8 @@
 &lt;/ul&gt;
 &lt;p&gt;Telemetry, when implemented ethically, is a good thing. We&#39;ve seen with Firefox, and especially Brave, how telemetry can affect the decisions that developers make with their products. As someone that&#39;s enthusiastic about some of these services being able to hit the mainstream, I like to enable telemetry to help the developers create a better product where I can, so that hopefully privacy can one day become the default rather than the niche.&lt;/p&gt;
 </description>
-      <pubDate>Sat, 23 Mar 2024 24:00:00 GMT</pubDate>
-      <dc:creator>Dexter Sigurdson</dc:creator>
+      <pubDate>Sat, 23 Mar 2024 18:00:00 GMT</pubDate>
+      <dc:creator>Dex</dc:creator>
       <guid>https://dextersig.ca/blog/posts/a-defence-of-telemetry/</guid>
     </item>
     <item>
@@ -265,8 +265,8 @@
 &lt;p&gt;Garmin smartwatches are the product that I would reccomend for most people. For technically skilled folks, Bangle.js 2 offers most of the functionality of Garmin at a cheaper price, while staying more private. For any digital ghosts out there, the F91W with the Sensor Watch upgrade actually makes the most sense.&lt;/p&gt;
 &lt;p&gt;Despite being completely unexpected, I was delighted at how many different options existed for privacy enthusiasts! Everyone, from those very casually interested in privacy, to digital ghosts that live in the woods, have options! Even though i settled with Garmin, I&#39;m still interested in a hackwatch as a programming project, and AsteroidOS would also be interesting to look at in the future. It&#39;s really fun to see so much competiton in a field that seems pretty stiff in terms of competition at first, especially in the niche of privacy.&lt;/p&gt;
 </description>
-      <pubDate>Wed, 21 Feb 2024 24:00:00 GMT</pubDate>
-      <dc:creator>Dexter Sigurdson</dc:creator>
+      <pubDate>Wed, 21 Feb 2024 18:00:00 GMT</pubDate>
+      <dc:creator>Dex</dc:creator>
       <guid>https://dextersig.ca/blog/posts/the-world-of-privacy-respecting-smartwatches-is-insane/</guid>
     </item>
     <item>
@@ -301,8 +301,8 @@
 &lt;p&gt;Another, more societal benefit is demonstrating the demand for digital privacy. Just recently, &lt;a href=&quot;https://9to5mac.com/2023/11/16/apple-rcs-coming-to-iphone/&quot;&gt;Apple announced not only that they plan to adopt RCS this year, but that they want to work with the GSMA to add encryption to the RCS standard.&lt;/a&gt; This will be a massive improvement over SMS and MMS, which are about as old as the Super NES and have no encryption whatsoever. If the increased security and encryption ends up working out as well, That would be an improvement over Google&#39;s implementation of RCS, which currently doesn&#39;t encrypt group chats. Signal Messenger and Signal Protocol were likely large contributors to showing Apple that there was a demand for better, encrypted messaging.&lt;/p&gt;
 &lt;p&gt;Signal is undeniable proof that privacy-by-default is a realistic goal. Showing big tech companies that there&#39;s consumer demand for ethical management of user data is an important step in motivating them to do so. In order to show the demand, users need to switch to platforms and services that respect their privacy more, and Signal is the golden standard to prove the viability of that concept.&lt;/p&gt;
 </description>
-      <pubDate>Mon, 19 Feb 2024 24:00:00 GMT</pubDate>
-      <dc:creator>Dexter Sigurdson</dc:creator>
+      <pubDate>Mon, 19 Feb 2024 18:00:00 GMT</pubDate>
+      <dc:creator>Dex</dc:creator>
       <guid>https://dextersig.ca/blog/posts/how-to-get-contacts-on-signal/</guid>
     </item>
   </channel>
