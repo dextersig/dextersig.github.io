@@ -19,7 +19,10 @@
   },
   "homepage": "https://github.com/dextersig/dextersig.github.io#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^3.0.0"
+    "@11ty/eleventy": "^3.0.0",
+    "@11ty/eleventy-plugin-rss": "^2.0.3",
+    "install": "^0.13.0",
+    "npm": "^11.3.0"
   },
   "dependencies": {
     "luxon": "^3.5.0"
