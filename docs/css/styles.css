@@ -129,7 +129,7 @@ main .postlist {
     justify-content: space-evenly;
     margin: auto 25vw 0.75vh 25vw;
     outline: 1px solid var(--secondary-color-dark);
-    text-align: center;
+    align-text: center;
 }
 
 /* Footer Styles */
@@ -142,7 +142,6 @@ footer{
     margin-top: auto;
     outline: 1px solid var(--secondary-color-dark);
     width: 100%;
-    align-text: center;
 }
 
 footer p{
