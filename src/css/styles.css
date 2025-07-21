@@ -36,7 +36,6 @@ a:focus {
 }
 
 img {
-    border-radius: 15%;
     max-width: 50vw;
 }
 
@@ -139,15 +138,23 @@ footer{
     border-radius: 2.5vw 2.5vw 0 0;
     display: flex;
     font-size: 1rem;
-    justify-content:flex-end;
+    justify-content: space-between;
     margin-top: auto;
     outline: 1px solid var(--secondary-color-dark);
     width: 100%;
+    align-text: center;
 }
 
 footer p{
     padding-right: 1rem;
 }
+
+
+footer .banners {
+    padding-top: 0.75rem;
+    padding-left: 1rem;
+}
+
 
 /* Small Window */
 @media(max-width: 900px) {
