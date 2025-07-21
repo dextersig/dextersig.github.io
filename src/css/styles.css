@@ -142,7 +142,7 @@ footer{
     margin-top: auto;
     outline: 1px solid var(--secondary-color-dark);
     width: 100%;
-    align-text: center;
+    text-align: center;
 }
 
 footer p{
